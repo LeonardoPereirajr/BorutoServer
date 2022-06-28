@@ -4,6 +4,7 @@ import borutoserver.com.example.models.ApiResponse
 import borutoserver.com.example.models.Hero
 
 class HeroRepositoryImpl: HeroRepository {
+
     override val heroes: Map<Int, List<Hero>>
         get() = TODO("Not yet implemented")
     override val page1: List<Hero>
